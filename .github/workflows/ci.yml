@@ -28,6 +28,6 @@ jobs:
           apt install -y lcov
           make memtest
       - uses: actions/upload-artifact@v3
-	with:
-	  name: code-coverage-report
-	  path: ./server/build/report 
+	      with:
+	        name: code-coverage-report
+	        path: ./server/build/report 
